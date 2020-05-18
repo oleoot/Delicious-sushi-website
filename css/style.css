@@ -1,0 +1,44 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Montserrat', sans-serif;
+}
+/* Utility classes ===================================================================================================== */
+a{
+text-decoration: none;
+}
+ul{
+list-style-type: none;
+}
+.container{
+width: 90%;
+margin: 0 auto;
+max-width: 1770px;
+}
+.flex-container{
+display: flex;
+justify-content: space-between;
+}
+.flex-container-center{
+display: flex;
+justify-content: center;
+}
+.align-center{
+align-items: center;
+}
+.text-xs{
+font-size: 8px;
+}
+.text-sm{
+font-size: 11px;
+}
+.text-md{
+font-size: 13px;
+}
+.text-lg{
+font-size: 24px;
+}
+.text-xl{
+font-size: 32px;
+}
