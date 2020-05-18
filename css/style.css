@@ -172,6 +172,36 @@ border-top-right-radius: 30px;
 border-bottom-right-radius: 30px;
 cursor: pointer;
 }
+/* Footer ===================================================================================================== */
+#footer{
+background: #000;
+padding: 200px 0;
+}
+#footer a, #footer li{
+color: var(--main-color);
+}
+.footer-wrap{
+grid-template-columns: 2fr 1fr 1fr 1fr;
+grid-gap: 100px;
+}
+
+.footer-wrap li{
+margin: 20px 0;
+}
+.footer-wrap a .footer-wrap p, .footer-wrap li{
+font-size: 22px;
+}
+.label{
+font-size: 28px !important;
+font-weight: 700;
+}
+.social-wrap{
+justify-content: flex-start !important;
+margin-top: 35px;
+}
+.social-wrap a{
+margin-right: 20px;
+}
 /* Utility classes ===================================================================================================== */
 section:not(:first-of-type){
 padding: 150px 0;
