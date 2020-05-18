@@ -84,6 +84,28 @@ grid-template-columns: 1fr 1fr;
 .tasty-wrap img{
 width: 500px;
 }
+/* Statistics section ===================================================================================================== */
+#statistics{
+background: var(--secondary-color);
+}
+.statistics-wrap{
+grid-template-columns: 1fr 1fr 1fr;
+}
+.statistics-item{
+width: 300px;
+height: 300px;
+margin: 0 auto;
+border-radius: 50%;
+border: 5px solid var(--main-color);
+flex-direction: column;
+}
+.statistics-item p{
+color: var(--main-color);
+font-weight: 700;
+}
+.statistics-item p:last-of-type{
+text-transform: uppercase;
+}
 /* Utility classes ===================================================================================================== */
 section:not(:first-of-type){
 padding: 150px 0;
