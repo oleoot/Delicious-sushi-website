@@ -10,6 +10,15 @@
 </head>
 
 <body>
+    <div class="hidden-menu" id="hidden-menu">
+        <ul class="flex-container hidden-ul">
+            <li class="hidden-li"><a href="#header" class="hidden-a text-lg">Home</a></li>
+            <li class="hidden-li"><a href="#bestsellers" class="hidden-a text-lg">Product</a></li>
+            <li class="hidden-li"><a href="#tasty" class="hidden-a text-lg">Promo</a></li>
+            <li class="hidden-li"><a href="#about" class="hidden-a text-lg">About</a></li>
+            <li class="hidden-li"><a href="#subscribe" class="hidden-a text-lg">Contact</a></li>
+        </ul>
+    </div>
     <header id="header">
         <nav class="nav flex-container-center align-center">
             <div class="container grid-container nav-wrap">
@@ -27,6 +36,11 @@
                 </div>
                 <div id="search" class="flex-container align-center">
                     <img src="img/icons/search.png" alt="search" id="search-icon">
+                    <div class="burger-menu flex-container" id="hidden-menu-btn">
+                        <div class="menu-line line1"></div>
+                        <div class="menu-line line2"></div>
+                        <div class="menu-line line3"></div>
+                    </div>
                 </div>
             </div>
         </nav>
