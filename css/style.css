@@ -11,7 +11,7 @@ font-family: 'Montserrat', sans-serif;
 /* Header ===================================================================================================== */
 #header{
 width: 100%;
-height: 100vh;
+height: 110vh;
 background: linear-gradient(rgba(253,97,97,0.8), rgba(253,97,97,0.8)), url(../img/bg/bg-1.png) bottom/cover;
 background-blend-mode: multiply;
 }
@@ -30,6 +30,9 @@ margin: 0 35px;
 text-transform: uppercase;
 color: var(--main-color);
 font-weight: 700;
+}
+.nav-a:hover{
+opacity: 0.8;
 }
 #search{
 justify-content: flex-end;
@@ -263,6 +266,9 @@ border: none;
 display: block;
 font-weight: 700;
 }
+.btn:hover{
+opacity: 0.8;
+}
 .section-headline{
 text-align: center;
 text-transform: uppercase;
@@ -271,7 +277,7 @@ color: var(--main-color);
 .section-description{
 color: var(--main-color);
 text-align: center;
-max-width: 900px;
+max-width: 650px;
 margin: 50px auto;
 }
 .section-headline-diffbg, .section-description-diffbg{
@@ -284,4 +290,65 @@ max-width: 750px;
 .btn-diffbg{
 background: var(--secondary-color);
 color: var(--main-color);
+}
+/* Media ==================================================================================================================== */
+@media screen and (max-width: 1650px){
+.nav li{
+margin: 0 20px;
+}
+.container-sm{
+width: 80%;
+}
+}
+@media screen and (max-width: 1440px){
+    .text-md{
+     font-size: 20px;
+    }
+     .text-xl{
+     font-size: 60px;
+    }
+    #logo{
+    width: 100px;
+    }
+    #search-icon{
+     width: 30px;
+    }
+    .bestsellers-headline-wrap{
+    top: -160px;
+    }
+}
+@media screen and (max-width: 1360px){
+    .bestsellers-wrap{
+     grid-template-columns: 1fr 1fr;
+    }
+    .tasty-wrap{
+    grid-template-columns: 1fr;
+    grid-gap: 50px;
+    }
+    .tasty-wrap img{
+     display: block;
+     margin: auto;
+    }
+    .tasty-wrap p, .tasty-wrap h2{
+     text-align: center;
+    }
+    .btn-diffbg{
+     margin: 0 auto;
+    }
+    .statistics-item{
+     width: 250px;
+     height: 250px;
+    }
+    #delicious-img-wrap{
+     grid-row-start: 1;
+    }
+    #delicious-img-wrap img{
+    display: block;
+    margin: auto;
+    }
+}
+@media screen and (max-width: 1280px){
+.nav li{
+margin: 0 10px;
+}
 }
